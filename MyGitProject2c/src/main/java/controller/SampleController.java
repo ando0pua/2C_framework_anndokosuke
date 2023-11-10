@@ -1,6 +1,6 @@
 package controller;
 
 public class SampleController {
-//ssss
+//林です。
 	
 }
