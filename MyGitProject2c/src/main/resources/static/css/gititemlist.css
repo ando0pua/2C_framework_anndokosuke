@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+  /* 全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffA500;
+}
+
+/* ヘッダー */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* メインコンテンツ */
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.news-article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.news-article h2 {
+  margin-top: 0;
+}
+
+.news-article p {
+  margin-bottom: 0;
+}
+
+/* ページングナビゲーション */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #333;
+  margin-right: 5px;
+}
+
+.pagination a:hover {
+  background-color: #e0e0e0;
+}
+
+.pagination .current {
+  background-color: #ccc;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .news-glid{
+            grid-template-columns:repeat2
+                
+            }
