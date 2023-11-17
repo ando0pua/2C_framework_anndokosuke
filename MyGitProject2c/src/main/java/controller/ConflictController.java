@@ -1,14 +1,8 @@
 package controller;
 
-public class ConflictController {
-<<<<<<< HEAD
-	//1
-	//2
-	//3
-=======
+public class ConflictController 
 
-	//4
-	//5
-	//6
->>>>>>> refs/remotes/origin/master
+	//7
+	//8
+	//9
 }
