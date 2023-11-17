@@ -10,12 +10,12 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class gitLoginController {
 
-    @GetMapping("/login")
+    @GetMapping("/gitpralogin")
     public ModelAndView loginPage() {
         return new ModelAndView("gitlogin");
     }
 
-    @PostMapping("/login")
+    @PostMapping("/gitpralogin")
     public ModelAndView login(@RequestParam String id, @RequestParam String pw) {
         ModelAndView modelAndView = new ModelAndView();
 
